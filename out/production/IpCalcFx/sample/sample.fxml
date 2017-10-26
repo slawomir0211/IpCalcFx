@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="ipAddressBtn" layoutX="260.0" layoutY="33.0" mnemonicParsing="false" text="Calc IP" />
+      <Label fx:id="calcLabel" alignment="TOP_CENTER" layoutX="96.0" layoutY="77.0" lineSpacing="7.0" prefHeight="310.0" prefWidth="368.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="77.0">
+         <font>
+            <Font name="Monospaced Bold" size="14.0" />
+         </font></Label>
+      <TextField fx:id="ipAddressText" alignment="CENTER" layoutX="72.0" layoutY="32.0" promptText="192.168.0.1/24" text="192.168.0.1/24">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+   </children>
+</AnchorPane>
